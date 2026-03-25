@@ -1,0 +1,16 @@
+name: eds_project2
+channels:
+- conda-forge
+dependencies:
+- python=3.11
+- numpy
+- pandas
+- xarray
+- netcdf4
+- h5netcdf
+- matplotlib
+- jupyter
+- scikit-learn
+- xgboost
+- pyarrow
+- pytest
