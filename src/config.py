@@ -15,8 +15,8 @@ MODELS_DIR = OUTPUTS_DIR / "models"
 TARGET = "TREFMXAV_U"
 
 FOLDS = [
-    {"train_end": "2029-12-01", "val_start": "2030-01-01", "val_end": "2034-12-01"},
-    {"train_end": "2034-12-01", "val_start": "2035-01-01", "val_end": "2039-12-01"},
-    {"train_end": "2039-12-01", "val_start": "2040-01-01", "val_end": "2044-12-01"},
-    {"train_end": "2044-12-01", "val_start": "2045-01-01", "val_end": "2049-12-01"},
+    {"train_end_year": 2029, "val_start_year": 2030, "val_end_year": 2034},
+    {"train_end_year": 2034, "val_start_year": 2035, "val_end_year": 2039},
+    {"train_end_year": 2039, "val_start_year": 2040, "val_end_year": 2044},
+    {"train_end_year": 2044, "val_start_year": 2045, "val_end_year": 2049},
 ]
