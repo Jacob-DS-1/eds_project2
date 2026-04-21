@@ -28,9 +28,15 @@ Raw NetCDF files are not stored in the repository. Place them in `data/raw/`.
 Create the environment from `environment.yml`, place the raw NetCDF files in `data/raw/`, and then run the notebooks/scripts in workflow order.
 
 Suggested workflow:
-1. preprocess and aggregate the raw climate data
-2. run `03_modeling_xgboost.ipynb` for model fitting, expanding window validation, ablation, feature-importance analysis, final training, and post-2050 holdout scoring
-3. run `04_post2050_predictions.ipynb` for post-2050 evaluation against truth, then scenario, seasonal, spatial, and Manchester-focused analysis
+1. Run preprocessing to create the monthly dataset.
+2. Run `03_modelling_xgboost.ipynb` to:
+   - validate models on pre-2050 folds
+   - fit the final model on pre-2050 data
+   - score the post-2050 holdout
+   - export row-level and grouped post-2050 evaluation tables
+3. Run `04_post2050_predictions.ipynb` to:
+   - compare post-2050 truth vs predictions
+   - analyse scenario, seasonal, spatial, and Manchester-specific patterns
 
 ## Key results
 
