@@ -18,6 +18,7 @@ How do projected post-2050 increases in `TREFMXAV_U` vary across scenario and se
 - `src/` reusable source code
 - `scripts/` runnable pipeline scripts
 - `outputs/` figures, tables, and saved models
+- `presentation/` contains the final project slide deck
 
 ## Data
 Raw NetCDF files are not stored in the repository. Place them in `data/raw/`.
