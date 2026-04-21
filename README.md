@@ -1,5 +1,5 @@
 # eds_project2
-An academic earth and environmental data science project investigating post-2050 changes in monthly maximum near-surface urban temperature (`TREFMXAV_U`) across climate scenarios. The project combines climate-data preprocessing, supervised learning, and post-2050 scenario, seasonal, spatial, and Manchester-focused analysis.
+An academic earth and environmental data science project investigating post-2050 changes in monthly mean of maximum near-surface urban temperature (`TREFMXAV_U`) across climate scenarios. The project combines climate-data preprocessing, supervised learning, and post-2050 scenario, seasonal, spatial, and Manchester-focused analysis.
 
 ## Research question
 
@@ -41,6 +41,7 @@ Suggested workflow:
 ## Key results
 
 - XGBoost outperformed linear and ridge baselines for predicting `TREFMXAV_U` during pre-2050 validation.
+- Model performance remained strong when tested on true post-2050 heldout data.
 - Removing `TREFHT` reduced model performance substantially, showing it is a major predictor, while reduced-model skill remained strong enough to indicate useful contributions from other variables.
 - For post-2050 predictions:
     - Post-2050 warming is positive across all scenarios, with stronger increases by 2070–2080 than in 2050–2059.
