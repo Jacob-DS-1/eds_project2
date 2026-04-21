@@ -20,3 +20,10 @@ FOLDS = [
     {"train_end_year": 2039, "val_start_year": 2040, "val_end_year": 2044},
     {"train_end_year": 2044, "val_start_year": 2045, "val_end_year": 2049},
 ]
+
+POST2050_HOLDOUT_PREDICTIONS = TABLES_DIR / "post2050_holdout_predictions.csv"
+POST2050_METRICS_OVERALL = TABLES_DIR / "post2050_metrics_overall.csv"
+POST2050_METRICS_BY_SCENARIO = TABLES_DIR / "post2050_metrics_by_scenario.csv"
+POST2050_METRICS_BY_SEASON = TABLES_DIR / "post2050_metrics_by_season.csv"
+POST2050_METRICS_BY_SCENARIO_SEASON = TABLES_DIR / "post2050_metrics_by_scenario_season.csv"
+POST2050_METRICS_BY_YEAR = TABLES_DIR / "post2050_metrics_by_year.csv"
