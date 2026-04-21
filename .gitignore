@@ -235,3 +235,4 @@ outputs/models/*
 *.nc4
 *.h5
 *.hdf5
+.virtual_documents/
